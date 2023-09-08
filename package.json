@@ -31,14 +31,14 @@
     "bumpp": "^9.2.0",
     "eslint": "^8.48.0",
     "typescript": "^5.2.2",
-    "unbuild": "^2.0.0",
-    "unocss-preset-component": "link:D:/Chen/frontend/unocss/unocss-preset-component"
+    "unbuild": "^2.0.0"
   },
   "peerDependencies": {
     "daisyui": ">=3.0.0",
     "unocss": ">=0.53.0"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.15"
+    "autoprefixer": "^10.4.15",
+    "unocss-preset-component": "^0.0.4"
   }
 }

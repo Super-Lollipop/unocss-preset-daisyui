@@ -17,6 +17,9 @@ importers:
       unocss:
         specifier: '>=0.53.0'
         version: 0.55.7(postcss@8.4.29)(rollup@3.29.0)(vite@4.4.5)
+      unocss-preset-component:
+        specifier: ^0.0.4
+        version: 0.0.4(unocss@0.55.7)
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^0.41.0
@@ -39,9 +42,6 @@ importers:
       unbuild:
         specifier: ^2.0.0
         version: 2.0.0(typescript@5.2.2)
-      unocss-preset-component:
-        specifier: link:D:/Chen/frontend/unocss/unocss-preset-component
-        version: link:../unocss-preset-component
 
   playground:
     dependencies:
@@ -4213,6 +4213,17 @@ packages:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
     engines: {node: '>= 10.0.0'}
     dev: true
+
+  /unocss-preset-component@0.0.4(unocss@0.55.7):
+    resolution: {integrity: sha512-bBAEDwPyKsLFAh7xhTsOOtqNT0w3t9PMWSOXh8qBKJksbgyVQdpPzram2WsSDuYjiWKSElj/hwTeKSQXyaq2eA==}
+    peerDependencies:
+      unocss: '>=0.53.0'
+    dependencies:
+      postcss: 8.4.29
+      postcss-js: 4.0.1(postcss@8.4.29)
+      postcss-selector-parser: 6.0.13
+      unocss: 0.55.7(postcss@8.4.29)(rollup@3.29.0)(vite@4.4.5)
+    dev: false
 
   /unocss@0.55.7(postcss@8.4.29)(rollup@3.29.0)(vite@4.4.5):
     resolution: {integrity: sha512-3W9P7vj2EhSk/4oPCHBS0VgrwSf5zZL6Az1/XARVOpBnRJtCM2szFInYxHkMgt9pkZTsW8SFCuk/g+QIJ6A8tg==}
