@@ -1,6 +1,6 @@
 {
   "name": "unocss-preset-daisyui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "",
   "license": "MIT",
   "description": "",
@@ -22,7 +22,7 @@
     "build": "unbuild",
     "stub": "unbuild --stub",
     "play": "npm -C playground run dev",
-    "release": "bumpp && pnpm publish"
+    "release": "bumpp && pnpm build && pnpm publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.41.0",
