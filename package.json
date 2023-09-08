@@ -1,0 +1,44 @@
+{
+  "name": "unocss-preset-daisyui",
+  "version": "0.0.1",
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "keywords": [],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "build": "unbuild",
+    "stub": "unbuild --stub",
+    "play": "npm -C playground run dev",
+    "release": "bumpp && pnpm publish"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
+    "@types/node": "^20.5.9",
+    "@types/postcss-js": "^4.0.1",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.48.0",
+    "typescript": "^5.2.2",
+    "unbuild": "^2.0.0"
+  },
+  "peerDependencies": {
+    "daisyui": ">=3.0.0",
+    "unocss": ">=0.53.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "unocss-preset-component": "^0.0.3"
+  }
+}
