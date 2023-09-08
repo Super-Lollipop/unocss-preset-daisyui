@@ -4,7 +4,19 @@
   "author": "",
   "license": "MIT",
   "description": "",
-  "keywords": [],
+  "homepage": "https://github.com/Super-Lollipop/unocss-preset-daisyui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Super-Lollipop/unocss-preset-daisyui"
+  },
+  "bugs": {
+    "url": "https://github.com/Super-Lollipop/unocss-preset-daisyui/issues"
+  },
+  "keywords": [
+    "unocss",
+    "daisyui",
+    "unocss-preset"
+  ],
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
