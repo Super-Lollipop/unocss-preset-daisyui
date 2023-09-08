@@ -1,0 +1,12 @@
+<template>
+  <div>
+    <div class="mockup-phone border-primary">
+      <div class="camera" />
+      <div class="display">
+        <div class="artboard artboard-demo phone-1">
+          Hi.
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

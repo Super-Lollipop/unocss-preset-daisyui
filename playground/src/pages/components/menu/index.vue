@@ -1,0 +1,20 @@
+<template>
+  <div class="flex flex-col gap-2">
+    <ul class="menu menu-xs bg-base-200 w-56 rounded-box">
+      <li><a>xs item 1</a></li>
+      <li><a>xs item 2</a></li>
+    </ul>
+    <ul class="menu menu-sm bg-base-200 w-56 rounded-box">
+      <li><a>sm item 1</a></li>
+      <li><a>sm item 2</a></li>
+    </ul>
+    <ul class="menu menu-md bg-base-200 w-56 rounded-box">
+      <li><a>md item 1</a></li>
+      <li><a>md item 2</a></li>
+    </ul>
+    <ul class="menu menu-lg bg-base-200 w-56 rounded-box">
+      <li><a>lg item 1</a></li>
+      <li><a>lg item 2</a></li>
+    </ul>
+  </div>
+</template>
