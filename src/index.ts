@@ -35,14 +35,6 @@ export default function presetDaisyui(option?: Config): Preset {
             decl.value = decl.value.replaceAll(/(var\s*\(\s*)?--(?:tw-)+([-\w]+)?/g, '$1--un-$2')
           },
         },
-        {
-          postcssPlugin: 'format-css',
-          Declaration: (decl) => {
-            if (decl.value?.includes('hsl'))
-              decl.value = decl.value.replaceAll(/\)\s?\/\s?/g, '), ')
-            decl.value = decl.value.replaceAll(/([\d.]+)\s+([\d.%]+)\s+([\d.%]+)\s?$/g, '$1, $2, $3')
-          },
-        },
       ],
     }),
     name: 'unocss-preset-daisyui',
