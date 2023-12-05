@@ -38,8 +38,6 @@ export default function presetDaisyui(option?: Config): Preset {
       ],
     }),
     name: 'unocss-preset-daisyui',
-    theme: {
-      colors: daisy.config?.theme?.extend?.colors,
-    },
+    theme: daisy.config?.theme?.extend,
   }
 }
